@@ -16,5 +16,5 @@ jobs:
         with:
           python-version: "3.12"
       # You can test your matrix by printing the current Python version
-      - name: Display Python version
+      - name: Run tests
         run: python sample_unit_tests.py
