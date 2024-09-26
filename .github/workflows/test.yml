@@ -19,7 +19,7 @@ jobs:
       - name: Run tests
         run: python sample_unit_tests.py
 
-  job_id:
+  deploy:
     runs-on: ubuntu-latest
 
     permissions:
