@@ -39,3 +39,9 @@ jobs:
 
       - name: 'Test CLI'
         run: 'gcloud info'
+
+      - id: 'upload-folder'
+        uses: 'google-github-actions/upload-cloud-storage@v2'
+        with:
+          path: '/www'
+          destination: 'spiers-devops'
